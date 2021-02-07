@@ -1,0 +1,61 @@
+body html {
+    margin: 0;
+    background-color: white;
+    
+
+}
+
+.nav {
+    height: 80px;
+    background-color: rgb(27, 23, 23);
+    margin: 0;
+    
+}
+
+.nav-comp {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 30px;
+}
+
+.nav-comp a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-comp a:hover {
+    color: whitesmoke;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.hero p {
+
+}
+
+.hero {
+    line-height: 50px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.hero button {
+    width: 20%;
+    height: 30px;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 12em black;
+}
+
+.hero button:focus {
+    outline: none;
+}
