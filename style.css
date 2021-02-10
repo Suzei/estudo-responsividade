@@ -1,61 +1,125 @@
-body html {
-    margin: 0;
-    background-color: white;
-    
-
-}
-
-.nav {
-    height: 80px;
-    background-color: rgb(27, 23, 23);
-    margin: 0;
-    
-}
-
-.nav-comp {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: 30px;
-}
-
-.nav-comp a {
-    margin: 20px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.nav-comp a:hover {
-    color: whitesmoke;
-}
-
-.hero h1 {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-.hero p {
-
-}
-
-.hero {
-    line-height: 50px;
-    position: relative;
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.hero button {
-    width: 20%;
-    height: 30px;
+#nav {
     background-color: black;
-    border-radius: 8px;
-    border: none;
-    box-shadow: 12em black;
+    height: 80px;
+    width: 100%;
 }
 
-.hero button:focus {
+.logo {
+    height: 80px;
+    width: 80px;
+    background: url(./logo.png) center center/56px no-repeat;
+    float: left;
+    font-size:0;
+}
+
+.nav-button {
+    float: right;
+    height: 80px;
+    width: 56px;
+    color: white;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 2px;
+}
+
+.nav-button:focus {
     outline: none;
+}
+
+.menu {
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.8) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.close-btn {
+    float: right;
+    font-size: 3em;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu li {
+    padding-top: 10%;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: monospace;
+    
+}
+
+#nav h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 28px;
+    right: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+#nav h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+}
+
+.info-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.info-upside {
+    background-color: rgb(207, 35, 35);
+    height: 50px;
+    width: 70%;
+    box-sizing: border-box;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 3px;
+    
+    
+    
+}
+
+.info-upside h2 {
+    margin-top: 12px
+}
+
+.info-page p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    display: none;
+    
 }
