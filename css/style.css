@@ -1,13 +1,20 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
 #nav {
     background-color: black;
     height: 80px;
     width: 100%;
 }
 
+
+
 .logo {
     height: 80px;
     width: 80px;
-    background: url(./logo.png) center center/56px no-repeat;
+    background: url(../imgs/logo.png) center center/56px no-repeat;
     float: left;
     font-size:0;
 }
@@ -37,6 +44,8 @@
     position: fixed;
     top: 0;
     left: 0;
+  
+
 }
 
 .close-btn {
@@ -95,6 +104,7 @@
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
+    
 }
 
 .info-upside {
@@ -109,6 +119,7 @@
     
     
     
+    
 }
 
 .info-upside h2 {
@@ -118,8 +129,28 @@
 .info-page p {
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
     display: none;
+    font-style: italic;
+    line-height: 25px;
+    padding: 0px 12px;
     
+}
+
+.info-char {
+    margin-top: 20px;
+    background-color: rgb(207, 35, 35);
+    height: 50px;
+    width: 70%;
+    box-sizing: border-box;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.info-char h2 {
+    margin-top: 12px
 }
