@@ -1,3 +1,7 @@
+.alt-title {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 
@@ -98,36 +102,33 @@ html {
 
 .info-page {
     display: flex;
-    justify-content: center;
     margin-top: 90px;
     width: 100%;
+    align-items: center; justify-content: center; text-align: center;
     flex-flow: column wrap;
-    align-items: center;
-    text-align: center;
+    
     
 }
 
-.info-upside {
-    background-color: rgb(207, 35, 35);
-    height: 50px;
-    width: 70%;
-    box-sizing: border-box;
+
+
+
+.topic-style {
+    
+    background-color: rgb(207, 35, 35); color: white;
+    height: 50px; width: 70%;
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    border-radius: 3px;
-    
-    
-    
-    
-}
-
-.info-upside h2 {
-    margin-top: 12px
-}
-
-.info-page p {
+    border-radius: 45px;
     margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+
+.format-text {
+
+    margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: 15px;
@@ -135,22 +136,52 @@ html {
     font-style: italic;
     line-height: 25px;
     padding: 0px 12px;
+    color: black;
     
 }
 
-.info-char {
-    margin-top: 20px;
-    background-color: rgb(207, 35, 35);
-    height: 50px;
-    width: 70%;
-    box-sizing: border-box;
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    border-radius: 3px;
-
+.topic-style h2 {
+    margin-top: 15px;
 }
 
-.info-char h2 {
-    margin-top: 12px
+.char-img {
+
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: black 12px 0px ;
+    height: 200px;
+    width: 200px;
+    display: none;
+   
 }
+
+.kiryu-img {
+    background: url(../imgs/Kazuma_Kiryu.png) no-repeat center top;
+}
+
+.majima-img {
+    background: url(../imgs/majima-goro.png) no-repeat center top;
+    background-size: 520px;
+    
+}
+
+.saejima-img {
+    background: url(../imgs/saejima-taiga.png) no-repeat center top;
+    background-size: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
