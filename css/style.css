@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .alt-title {
     display: none;
 }
@@ -110,13 +117,17 @@ html {
     
 }
 
+.alt-nav {
+    display: none;
+}
+
 
 
 
 .topic-style {
     
     background-color: rgb(207, 35, 35); color: white;
-    height: 50px; width: 70%;
+    height: 50px; width: 250px;
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 45px;

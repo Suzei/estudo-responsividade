@@ -1,70 +1,88 @@
 @media (min-width: 1024px) {
-    .nav-button {
-        display: none;
-    }
 
-    .menu {
-        display: flex;
-        flex-flow: row wrap;
-        position: relative;
-        width: 100%;
-        height: 1%;
-        font-size: 10px;
-        background-color: black;
-        text-align: left;
+    
 
+    .nav-button, .h2-mob, ul h3, .close-btn {display: none;}
+        
+   
+
+    
+    .alt-nav {display: flex;
+              float: right;
+              margin-top: 15px;
+              
+                    
     }
     
-    ul h3 {
-        display: none;
-    }
 
-    .menu li {
-        width: 100%;
-        padding: 0;
-        padding-top: 10px;
-        margin: 10px;
-        color: blue;
-    }
-
-    .menu ul {
-        display: flex;
-        color: blue;
-        position: relative;
-        bottom: 165px;
-        width: 100%;
-
-    }
-
-    .menu li a {
+    .alt-nav a {
+        padding: 20px;
+        text-decoration: none;
         color: white;
-        padding: 1px 0 ;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        
-        
-        
-    }
-
-    .h2-mob {
-        display: none;
-    }    
-
-    .menu h3 {
-        display: none;
-    }
-
-    .close-btn {
-        display: none;
     }
 
     .alt-title {
         display: flex;
-        margin-bottom: 80px;
-        margin-left: 80px ;
+        margin-top: 88px;
+        margin-left: 100px ;
         align-self: flex-start;
     }
 
+
+    .info-page {
+        display: flex;
+        justify-content: left;
+        width: 55%;
+        
+    }
+
+    .topic-style {
+        border-radius: 3px;
+        margin-top: 8px;
+        width: 50%;
+        justify-content: left;
+        position: relative;
+        right: 50px;
+
+    }
+
+    .char-img {
+        border: 1px solid;
+        border-radius: 1px;
+        height: 500px;
+        width: 300px;
+        display: block;
+        position: relative;
+        right: 48px ;
+    }
+
+    .kiryu-img {
+        background: url(../imgs/Kazuma_Kiryu.png) no-repeat center top;
+    }
     
+    .majima-img {
+        background: url(../imgs/majima-goro.png) no-repeat center top;
+        background-size: 450px;
+        
+    }
+    
+    .saejima-img {
+        background: url(../imgs/saejima-taiga.png) no-repeat center top;
+        background-size: 450px;
+    }
+    
+    .format-text {
+
+        padding: 0px 12px;
+        width: 45vw;
+        
+        display: block;
+    }
+
+     .topic-style:first-of-type {
+         display: none;
+     }
+
+     
 }
 
