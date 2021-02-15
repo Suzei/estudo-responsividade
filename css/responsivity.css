@@ -1,10 +1,18 @@
 @media (min-width: 1024px) {
 
+   
     
+    body {
+        margin: auto;
+        padding: 0 20px 20px 20px;
+        background-color: white;
+        width: 100%;
+        
+    }
 
     .nav-button, .h2-mob, ul h3, .close-btn {display: none;}
         
-   
+
 
     
     .alt-nav {display: flex;
@@ -16,7 +24,7 @@
     
 
     .alt-nav a {
-        padding: 20px;
+        margin: 20px;
         text-decoration: none;
         color: white;
     }
@@ -28,21 +36,22 @@
         align-self: flex-start;
     }
 
-
     .info-page {
         display: flex;
         justify-content: left;
         width: 55%;
+        margin-top: 18px;
         
     }
 
     .topic-style {
         border-radius: 3px;
-        margin-top: 8px;
-        width: 50%;
+        margin-top: 80px;
+        width: 40%;
         justify-content: left;
         position: relative;
         right: 50px;
+        cursor: unset;
 
     }
 
@@ -83,6 +92,39 @@
          display: none;
      }
 
-     
+     .footer-inf {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        background-color: rgb(34, 28, 28);
+        
 }
 
+    .explore, .overview {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-move {
+        display: flex;
+        padding: 50px;
+        justify-content: flex-end;
+        
+    }
+
+    .explore a, .overview a {
+        margin: 8px;
+        color: white;
+        text-decoration: none;
+    }
+
+   
+
+    .logo-footer {
+        background: url(../imgs/logo.png) left no-repeat ;
+    }
+    
+    
+   
+}
