@@ -39,7 +39,8 @@
     .info-page {
         display: flex;
         justify-content: left;
-        width: 55%;
+        flex-direction: column;
+        width: 100%;
         margin-top: 18px;
         
     }
@@ -101,9 +102,17 @@
         
 }
 
-    .explore, .overview {
+    .explore, .overview, .community {
         display: flex;
         flex-direction: column;
+        padding-left: 150px;
+        padding-top: 22px;
+    }
+
+    .adv {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
     }
 
     .footer-move {
@@ -113,18 +122,29 @@
         
     }
 
-    .explore a, .overview a {
+    .explore a, .overview a, .community a, .adv a {
         margin: 8px;
         color: white;
         text-decoration: none;
     }
 
-   
+   h5 {
+       color: white;
+       font-weight: 800px;
+       font-size: 20px;
+   }
 
-    .logo-footer {
-        background: url(../imgs/logo.png) left no-repeat ;
+    
+    
+    .footer-fig {
+        background: url(../imgs/tojo-logo.png) no-repeat center center;
+        background-size: 100px;
+        position: relative;
+        top: 120px;
+        left: 80px;
+        height: 100px;
+        width: 150px;
+        font-size: 0;
     }
-    
-    
    
 }
