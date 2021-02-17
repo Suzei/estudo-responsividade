@@ -45,15 +45,19 @@
         
     }
 
+    .info-text {
+        text-align: left;
+        width: 450px;
+    }
+
     .topic-style {
         border-radius: 3px;
         margin-top: 80px;
-        width: 40%;
+        padding-top: 0.5px;
+        width: 220px;
         justify-content: left;
         position: relative;
-        right: 50px;
-        cursor: unset;
-
+        display: none;
     }
 
     .char-img {
@@ -75,6 +79,10 @@
         background-size: 450px;
         
     }
+
+    .char-img .majima-img {
+        padding-left: 80px;
+    }
     
     .saejima-img {
         background: url(../imgs/saejima-taiga.png) no-repeat center top;
@@ -84,20 +92,16 @@
     .format-text {
 
         padding: 0px 12px;
-        width: 45vw;
+        width: 32vw;
         
         display: block;
     }
-
-     .topic-style:first-of-type {
-         display: none;
-     }
 
      .footer-inf {
         margin-top: 80px;
         display: flex;
         flex-direction: row;
-        height: 350px;
+        height: 360px;
         background-color: rgb(34, 28, 28);
         
 }
@@ -106,7 +110,7 @@
         display: flex;
         flex-direction: column;
         padding-left: 150px;
-        padding-top: 22px;
+        padding-top: 15px;
     }
 
     .adv {
@@ -117,7 +121,8 @@
 
     .footer-move {
         display: flex;
-        padding: 50px;
+        padding: 40px;
+        padding-left: 10px;
         justify-content: flex-end;
         
     }
@@ -138,13 +143,54 @@
     
     .footer-fig {
         background: url(../imgs/tojo-logo.png) no-repeat center center;
-        background-size: 100px;
+        background-size: 120px;
         position: relative;
         top: 120px;
         left: 80px;
-        height: 100px;
+        height: 150px;
         width: 150px;
         font-size: 0;
     }
+
+    .info-flow {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
    
+    .flow-right {
+        
+        padding-right: 220px;
+        flex-direction: row-reverse;
+
+        
+
+    }
+
+    .flow-right .majima {
+        padding-right: 120px;
+        width: 50%;
+        
+        
+    }
+
+    
+    .flow-left {
+       padding-left: 249px;
+    }
+
+    .right-topic {
+        position: relative;
+        left: 75px;
+        width: 80%;
+        
+    }
+
+    .left-topic {
+        padding-left: 420px;
+    }
+    
+
 }
