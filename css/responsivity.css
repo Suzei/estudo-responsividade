@@ -2,6 +2,8 @@
 
    
     
+    
+
     body {
         margin: auto;
         padding: 0 20px 20px 20px;
@@ -42,12 +44,12 @@
         flex-direction: column;
         width: 100%;
         margin-top: 18px;
-        
     }
 
     .info-text {
         text-align: left;
         width: 450px;
+        
     }
 
     .topic-style {
@@ -57,17 +59,18 @@
         width: 220px;
         justify-content: left;
         position: relative;
-        display: none;
+        
     }
 
     .char-img {
         border: 1px solid;
-        border-radius: 1px;
-        height: 500px;
+        border-radius: 5px;
+        height: 450px;
         width: 300px;
         display: block;
         position: relative;
         right: 48px ;
+        box-shadow: black 22px 21px;
     }
 
     .kiryu-img {
@@ -85,14 +88,15 @@
     }
     
     .saejima-img {
-        background: url(../imgs/saejima-taiga.png) no-repeat center top;
+        background: url(../imgs/saejima-taiga.png) no-repeat center top left;
         background-size: 450px;
+        
     }
     
     .format-text {
-
         padding: 0px 12px;
         width: 32vw;
+        color: black;
         
         display: block;
     }
@@ -162,7 +166,7 @@
    
     .flow-right {
         
-        padding-right: 220px;
+        padding-right: 120px;
         flex-direction: row-reverse;
 
         
@@ -183,14 +187,48 @@
 
     .right-topic {
         position: relative;
-        left: 75px;
-        width: 80%;
+        left: 150px;
+        width: 200px;
+        padding-right: 830px;
         
     }
 
     .left-topic {
-        padding-left: 420px;
+        position: relative;
+        padding-left: 110px;
+        width: 200px;
     }
     
+
+    .banner {
+   
+        display: flex;
+        background: url(../imgs/gotoku-wpp.jpg) no-repeat center;
+        flex-direction: column;
+        background-size: 1550px;
+        opacity: 2.0;
+        background-color: black;
+        color: white;
+        height: 500px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        line-height: 70px;
+    }
+
+    @font-face {
+        font-family: yakuzaFont;
+        src: url(../fonts/edosz.ttf);
+    }
+
+    .banner h2 {
+        font-family: yakuzaFont;
+        font-size: 80px;
+        
+    }
+
+    .banner p {
+        font-family: monospace ;
+    }
 
 }
