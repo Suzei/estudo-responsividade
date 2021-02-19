@@ -25,7 +25,7 @@ There's no footer around here. In the final version i removed to focus on the br
 
 There's some unaligned divs and elements. It's my fault cuz i build the code before to have the idea AND... i have some laziness too ngl. <br>
 
-And to finish i used HTML, CSS and JS (JQuery menu in 320px - 1023px) + Mobile First methology  THANKS TO READ MY CODE! I'm Vinícius Silva, but you can call me Suzei.
+And to finish i used HTML, CSS and JS (JQuery menu in 320px - 1023px) + Fonts Awesome Icons + Mobile First methology  THANKS TO READ MY CODE! I'm Vinícius Silva, but you can call me Suzei.
 
 
 
@@ -46,7 +46,7 @@ Não tem footer por quê eu decidi remover, pra focar mesmo na responsividade do
 Tem algumas divs e elementos desalinhados. Isso é completamente culpa minha, pelo fato de pensar no código primeiro e na ideia depois...
 e tive um pouco de preguiça, não vou mentir.
 
- E pra finalizar eu usei HTML, CSS e JS (JQUery no menu: 320px - 1023px) + Metodologia Mobile First.
+ E pra finalizar eu usei HTML, CSS e JS (JQUery no menu: 320px - 1023px) + ícones do Fonts Awesome + Metodologia Mobile First.
  OBRIGADO POR LER MEU CÓDIGO! Meu nome Vinícius Silva, mas você pode me chamar de Suzei.
                     
                 
