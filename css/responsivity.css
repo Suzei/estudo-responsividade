@@ -31,174 +31,6 @@
         color: white;
     }
 
-    .alt-title {
-        display: flex;
-        margin-top: 88px;
-        margin-left: 100px ;
-        align-self: flex-start;
-    }
-
-    .info-page {
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 18px;
-    }
-
-    .info-text {
-        text-align: left;
-        width: 450px;
-        
-    }
-
-    .topic-style {
-        border-radius: 3px;
-        margin-top: 80px;
-        padding-top: 0.5px;
-        width: 220px;
-        justify-content: left;
-        position: relative;
-        
-    }
-
-    .char-img {
-        border: 1px solid;
-        border-radius: 5px;
-        height: 450px;
-        width: 300px;
-        display: block;
-        position: relative;
-        right: 48px ;
-        box-shadow: black 22px 21px;
-    }
-
-    .kiryu-img {
-        background: url(../imgs/Kazuma_Kiryu.png) no-repeat center top;
-    }
-    
-    .majima-img {
-        background: url(../imgs/majima-goro.png) no-repeat center top;
-        background-size: 450px;
-        
-    }
-
-    .char-img .majima-img {
-        padding-left: 80px;
-    }
-    
-    .saejima-img {
-        background: url(../imgs/saejima-taiga.png) no-repeat center top left;
-        background-size: 450px;
-        
-    }
-    
-    .format-text {
-        padding: 0px 12px;
-        width: 32vw;
-        color: black;
-        
-        display: block;
-    }
-
-     .footer-inf {
-        margin-top: 80px;
-        display: flex;
-        flex-direction: row;
-        height: 360px;
-        background-color: rgb(34, 28, 28);
-        
-}
-
-    .explore, .overview, .community {
-        display: flex;
-        flex-direction: column;
-        padding-left: 150px;
-        padding-top: 15px;
-    }
-
-    .adv {
-        display: flex;
-        flex-direction: column;
-        padding-top: 25px;
-    }
-
-    .footer-move {
-        display: flex;
-        padding: 40px;
-        padding-left: 10px;
-        justify-content: flex-end;
-        
-    }
-
-    .explore a, .overview a, .community a, .adv a {
-        margin: 8px;
-        color: white;
-        text-decoration: none;
-    }
-
-   h5 {
-       color: white;
-       font-weight: 800px;
-       font-size: 20px;
-   }
-
-    
-    
-    .footer-fig {
-        background: url(../imgs/tojo-logo.png) no-repeat center center;
-        background-size: 120px;
-        position: relative;
-        top: 120px;
-        left: 80px;
-        height: 150px;
-        width: 150px;
-        font-size: 0;
-    }
-
-    .info-flow {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        
-    }
-   
-    .flow-right {
-        
-        padding-right: 120px;
-        flex-direction: row-reverse;
-
-        
-
-    }
-
-    .flow-right .majima {
-        padding-right: 120px;
-        width: 50%;
-        
-        
-    }
-
-    
-    .flow-left {
-       padding-left: 249px;
-    }
-
-    .right-topic {
-        position: relative;
-        left: 150px;
-        width: 200px;
-        padding-right: 830px;
-        
-    }
-
-    .left-topic {
-        position: relative;
-        padding-left: 110px;
-        width: 200px;
-    }
-    
 
     .banner {
    
@@ -231,4 +63,173 @@
         font-family: monospace ;
     }
 
+
+
+    .alt-title {
+        display: flex;
+        margin-top: 88px;
+        margin-left: 100px ;
+        align-self: flex-start;
+    }
+
+    .info-page {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    .info-text {
+        text-align: left;
+        width: 450px;
+        
+    }
+
+    .topic-style {
+        border-radius: 3px;
+        margin-top: 80px;
+        padding-top: 0.5px;
+        width: 220px;
+        display: none;
+        justify-content: left;
+        position: relative;
+        
+    }
+
+    .topic-align-left h2 {
+
+       background-color: rgb(207, 35, 35);
+       height: 40px;
+       margin-top: 80px;
+       padding-top: 7px;
+       width: 300px;
+       font-family: Arial, Helvetica, sans-serif; 
+       border-radius: 4px;
+       margin-left: 20px;
+       color: white;
+       display: block;
+       
+    }
+
+   
+
+    .topic-align-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .topic-align-right h2 {
+
+       background-color: rgb(207, 35, 35);
+       align-self: flex-end;
+       margin-right: 220px;
+       color: white;
+       height: 40px;
+       margin-top: 80px;
+       padding-top: 7px;
+       width: 300px;
+       display: block;
+
+    }
+
+    .topic-align-right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .char-img {
+        border: 1px solid;
+        border-radius: 5px;
+        height: 450px;
+        width: 300px;
+        display: block;
+        position: relative;
+        right: 48px ;
+        box-shadow: black 22px 21px;
+    }
+
+    .kiryu-img {
+        background: url(../imgs/Kazuma_Kiryu.png) no-repeat center top;
+    }
+    
+    .majima-img {
+        background: url(../imgs/majima-goro.png) no-repeat center top;
+        background-size: 450px;
+        
+    }
+
+    .char-img .majima-img {
+        padding-left: 200px;
+    }
+    
+    .saejima-img {
+        background: url(../imgs/saejima-taiga.png) no-repeat center top left;
+        background-size: 450px;
+        
+    }
+    
+    .format-text {
+        padding: 0px 12px;
+        width: 80%;
+        color: black;
+        display: block;
+    }
+
+    .info-flow {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+   
+    .flow-right  {
+        
+        padding-left: 250px;
+        flex-direction: row-reverse;
+
+        
+
+    }
+
+
+
+    .flow-right .majima {padding-right: 20px;}
+
+    
+    .flow-left {padding-left: 249px;}
+       
+
+    .right-topic {
+        position: relative; left: 150px;
+        width: 200px;
+        margin-right: 720px;
+        
+    }
+
+    .left-topic {
+        position: relative;
+        margin-left: 380px;
+        width: 200px;
+    }
+    
+
+ 
+
+   
+    
+   
+
+
+   
+
+
 }
+

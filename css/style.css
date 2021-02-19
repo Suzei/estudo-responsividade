@@ -185,13 +185,6 @@ html {
     background-size: 450px;
 }
 
-
-
-.footer-inf {
-    display: none;
-}
-
-
 .info-flow {
     display: flex;
     flex-direction: column;
@@ -204,7 +197,9 @@ html {
 }
 
 
-
+.hid-h2 {
+    display: none;
+}
 
 
 
