@@ -1,10 +1,10 @@
 # estudo-responsividade
   A brief study of responsive design in HTML, using some resources from Jquery + Media Queries.
-
+		
         # Como rodar?
               A simple project means that's simple to run.
-
-                <a href="https://github.com/Suzei/estudo-responsividade/archive/master.zip"DOWNLOAD THE ZIP</a> 
+				
+                <a href="https://github.com/Suzei/estudo-responsividade/archive/master.zip">DOWNLOAD THE ZIP</a> 
 
                     RUN WITH LIVE SERVER OR JUST OPEN THE HTML
 
@@ -53,7 +53,7 @@
                     E pra finalizar eu usei HTML, CSS e JS (JQUery no menu: 320px - 1023px) + Metodologia Mobile First.
                         OBRIGADO POR LER MEU CÓDIGO! Meu nome Vinícius Silva, mas você pode me chamar de Suzei.
                     
-                    
+                   </p> 
 
                     
                 
